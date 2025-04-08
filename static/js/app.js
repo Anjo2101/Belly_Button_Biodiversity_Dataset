@@ -107,7 +107,7 @@ function init() {
     let sampleNames = data.names;
 
     // Use d3 to select the dropdown with id of `#selDataset`
-    let selector = d3.select("$selDataset");
+    let selector = d3.select("#selDataset");
 
 
     // Use the list of sample names to populate the select options
